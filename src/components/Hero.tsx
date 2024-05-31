@@ -2,14 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { context } from "../App";
-import {
-  comp,
-  leetcodeLight,
-  leetcodeDark,
-  linkedin,
-  github,
-  gmail,
-} from "../assets";
+import { comp, linkedin, github, gmail } from "../assets";
 import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {

@@ -1,8 +1,8 @@
-import { backend, binaryTrees, cp, docker, dsakit, frontend, kafka, leethub, linkedList, redis, PowerBi } from '../assets';
-import { Ssms,python, sql, django, css, git, html, javascript, mongodb, nodejs, reactjs, tailwind, typescript } from '../assets';
+import { backend, cp, docker, frontend, kafka, PowerBi } from '../assets';
+import { Ssms,python, sql, git, javascript, mongodb, nodejs, reactjs, tailwind, typescript } from '../assets';
 import { java, azure, gcp, tableau, kubernetes, excel, jenkins, scala, plsql} from '../assets';
-import { aws, github, Azure_Migration, Microsoft_Fabric, CICD, Polyp} from '../assets/index';
-//export const resumeLink = "https://drive.google.com/file/d/1x4-tvVjyN37nGlHNsDJz0ckmpLMkyhI3/preview";
+import { github, Azure_Migration, Microsoft_Fabric, CICD, Polyp} from '../assets/index';
+
 export const resumeLink = "https://drive.google.com/file/d/1eOWfsYhMrR7a1Cib6NR32hGEcdSq0DPW/preview";
 
 
