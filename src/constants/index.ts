@@ -1,7 +1,7 @@
 import { backend, cp, docker, frontend, kafka, PowerBi } from '../assets';
 import { Ssms,python, sql, git, javascript, mongodb, nodejs, reactjs, tailwind, typescript } from '../assets';
 import { java, azure, gcp, tableau, kubernetes, excel, jenkins, scala, plsql} from '../assets';
-import { github, Azure_Migration, Microsoft_Fabric, CICD, Polyp} from '../assets/index';
+import { github, Azure_Migration, Microsoft_Fabric, CICD, Polyp,ieee,microsoft, iot} from '../assets/index';
 
 export const resumeLink = "https://drive.google.com/file/d/1w44WWfsoPJLbrmhy0VsyYaKUf7BxxJIS/preview";
 
@@ -99,3 +99,10 @@ export const projects = [
     },
 
 ]
+
+export const achievements = [
+    { title: "Microsoft Data Fundamentals", icon: microsoft, link: "https://learn.microsoft.com/en-us/users/sahithdamera-2374/credentials/3fc8d119ec60f796?ref=https%3A%2F%2Fwww.linkedin.com%2F" }, 
+    { title: "Automatic Segmentation of Polys", icon: ieee, link: "https://ieeexplore.ieee.org/document/9544573" }, 
+    { title: "Introduction to IOT", icon: iot, link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL19CS65S51470359191053092" }, 
+    { title: "Data Structures in Python", icon: PowerBi, link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL20CS26S1PC626488" }
+];
