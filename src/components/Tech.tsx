@@ -57,7 +57,7 @@ const Tech = () => {
           isLight ? "text-black-100" : "text-white-100"
         } font-semibold mt-4`}
       >
-        Cloud Tecnologies and Frameworks
+        Cloud Technologies and Services
       </p>
       <div className="flex flex-row flex-wrap justify-center gap-6 md:gap-16 my-10 w-full">
         {frameworks.map((framework, index) => (
