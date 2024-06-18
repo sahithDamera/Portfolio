@@ -10,17 +10,17 @@ const Hero = () => {
 
   return (
     <div
-      className={`z-0 ${
+      className={`z-10 ${
         isLight ? "bg-hero-pattern-light" : "bg-hero-pattern-dark"
       } bg-cover bg-no-repeat bg-center`}
     >
       <div
         className={`absolute inset-0 bg-gradient-to-b from-transparent from-60% ${
           isLight ? "to-white" : "to-black"
-        }`}
+        } z-20`}
       ></div>
       <section
-        className={`relative shrink-0 w-full h-screen mx-auto ${styles.paddingX} pt-[120px] max-w-7xl mx-auto flex items-start justify-between`}
+        className={`relative z-30 shrink-0 w-full h-screen mx-auto ${styles.paddingX} pt-[120px] max-w-7xl mx-auto flex items-start justify-between`}
       >
         <div className="flex flex-col md:flex-row justify-between items-center mt-5 gap-3">
           <div className="flex flex-col gap-3 md:gap-5">
@@ -90,7 +90,11 @@ const Hero = () => {
               </span>
             </p>
           </div>
-          <img src={comp} alt="Working Man" className="pointer-events-none" />
+          <img
+            src={comp}
+            alt="Working Man"
+            className="pointer-events-none z-10"
+          />
         </div>
       </section>
     </div>
