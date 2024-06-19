@@ -6,7 +6,6 @@ import { github, Azure_Migration, Microsoft_Fabric, CICD, Polyp,ieee,microsoft, 
 export const resumeLink = "https://drive.google.com/file/d/1w44WWfsoPJLbrmhy0VsyYaKUf7BxxJIS/preview";
 
 
-
 export const aboutMe = "Hello, I'm Sahith, a dedicated Data Analyst and Data Engineer, with Master's in Data Science, thriving in the dynamic environment. My journey has been incredibly rewarding, allowing me to take ownership of projects and experience rapid professional growth through continuous learning. Driven by a passion for Extracting, Transforming, Loading and problem-solving the data. With over 3 years of experience on cloud technologies mainly Azure, AWS and GCP, I'm deeply committed to refining my skills and optimizing solutions. My curiosity for exploring new technologies has led me to diverse projects, including Migration of Data from on premsis to Azure cloud, developing Python modules, and creating visualizations using PowerBi and Tableue. Each project presents a unique opportunity for me to expand my technical repertoies and push the boundaries of innovation. Let's connect and explore opportunities to collaborate on exciting ventures together!"
 
 export const skills = [
