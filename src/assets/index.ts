@@ -38,7 +38,7 @@ import jenkins from './tech/jenkins.png'
 import ieee from './tech/ieee.png'
 import microsoft from './tech/microsoft.png'
 import iot from './tech/iot.png'
-import oracle from './tech/oracle.jpg'
+import Oracle from './tech/Oracle.jpg'
 
 import leetcodeLight from './social/leetcodeLight.svg';
 import leetcodeDark from './social/leetcodeDark.svg';
@@ -117,5 +117,5 @@ export {
   ieee,
   microsoft,
   iot,
-  oracle,
+  Oracle,
 };
