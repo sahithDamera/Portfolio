@@ -1,13 +1,13 @@
 import { backend, cp, docker, frontend, kafka, PowerBi } from '../assets';
 import { Ssms,python, sql, git, javascript, mongodb, nodejs, reactjs, tailwind, typescript } from '../assets';
 import { java, azure, gcp, tableau, kubernetes, excel, jenkins, scala, plsql} from '../assets';
-import { github, Azure_Migration, Microsoft_Fabric, CICD, Polyp,ieee,microsoft, iot} from '../assets/index';
+import { github, Azure_Migration, Microsoft_Fabric, CICD, Polyp,ieee,microsoft, iot, oracle} from '../assets/index';
 
 export const resumeLink = "https://drive.google.com/file/d/1w44WWfsoPJLbrmhy0VsyYaKUf7BxxJIS/preview";
 
 
 
-export const aboutMe = "Hello, I'm Sahith, a dedicated Data Engineer, with Master's in Data Science, thriving in the dynamic environment. My journey has been incredibly rewarding, allowing me to take ownership of projects and experience rapid professional growth through continuous learning. Driven by a passion for Extracting, Transforming, Loading and problem-solving the data. With over 3 years of experience on cloud technologies mainly Azure, AWS and GCP, I'm deeply committed to refining my skills and optimizing solutions. My curiosity for exploring new technologies has led me to diverse projects, including Migration of Data from on premsis to Azure cloud, developing Python modules, and creating visualizations using PowerBi and Tableue. Each project presents a unique opportunity for me to expand my technical repertoies and push the boundaries of innovation. Let's connect and explore opportunities to collaborate on exciting ventures together!"
+export const aboutMe = "Hello, I'm Sahith, a dedicated Data Analyst and Data Engineer, with Master's in Data Science, thriving in the dynamic environment. My journey has been incredibly rewarding, allowing me to take ownership of projects and experience rapid professional growth through continuous learning. Driven by a passion for Extracting, Transforming, Loading and problem-solving the data. With over 3 years of experience on cloud technologies mainly Azure, AWS and GCP, I'm deeply committed to refining my skills and optimizing solutions. My curiosity for exploring new technologies has led me to diverse projects, including Migration of Data from on premsis to Azure cloud, developing Python modules, and creating visualizations using PowerBi and Tableue. Each project presents a unique opportunity for me to expand my technical repertoies and push the boundaries of innovation. Let's connect and explore opportunities to collaborate on exciting ventures together!"
 
 export const skills = [
     {title: "Data Analyst", icon: cp}, 
@@ -102,7 +102,8 @@ export const projects = [
 
 export const achievements = [
     { title: "Microsoft Data Fundamentals", icon: microsoft, link: "https://learn.microsoft.com/en-us/users/sahithdamera-2374/credentials/3fc8d119ec60f796?ref=https%3A%2F%2Fwww.linkedin.com%2F" }, 
-    { title: "Automatic Segmentation of Polys", icon: ieee, link: "https://ieeexplore.ieee.org/document/9544573" }, 
+    { title: "Automatic Segmentation", icon: ieee, link: "https://ieeexplore.ieee.org/document/9544573" }, 
     { title: "Introduction to IOT", icon: iot, link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL19CS65S51470359191053092" }, 
-    { title: "Data Structures in Python", icon: PowerBi, link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL20CS26S1PC626488" }
+    { title: "Data Structures in Python", icon: PowerBi, link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL20CS26S1PC626488" },
+    { title: "Oracle AI Professional", icon: oracle, link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=10477D66C70298F9FECE4DD27ECF66B6FD8A570BAD6BBE9371BABFAFA7677025#" }
 ];

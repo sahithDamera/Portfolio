@@ -5,7 +5,7 @@ import { styles } from "../styles";
 
 const AchievementCard = ({ title, icon, link }) => {
   return (
-    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4 flex justify-center">
+    <div className="w-full sm:w-1/3 md:w-1/4 lg:w-1/6 p-2 flex justify-center">
       <a
         href={link}
         target="_blank"
@@ -13,17 +13,17 @@ const AchievementCard = ({ title, icon, link }) => {
         className="w-full relative"
       >
         <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:-translate-y-2">
-          <div className="w-full h-32 flex items-center justify-center bg-white">
-            <img src={icon} alt={title} className="h-20 object-contain" />
+          <div className="w-full h-24 flex items-center justify-center bg-white">
+            <img src={icon} alt={title} className="h-16 object-contain" />
           </div>
-          <div className="p-4">
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white text-center">
+          <div className="p-2">
+            <h3 className="text-sm font-semibold text-gray-800 dark:text-white text-center">
               {title}
             </h3>
           </div>
         </div>
         <svg
-          className="absolute top-2 right-2 w-6 h-6 text-black"
+          className="absolute top-1 right-1 w-4 h-4 text-black"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -45,19 +45,19 @@ const Achievements = () => {
   return (
     <div
       id="achievements"
-      className={`py-20 ${
+      className={`py-16 ${
         isLight ? "bg-white" : "bg-gray-900"
       } transition-colors duration-500`}
     >
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-2">
         <h2
           className={`${styles.sectionHeadText} ${
             isLight ? "text-black-100" : "text-white-100"
-          } mb-16`}
+          } mb-12 whitespace-nowrap text-xl`} // Adjusted text size and margin
         >
           Certifications and Publications
         </h2>
-        <div className="flex flex-wrap justify-center -m-4">
+        <div className="flex flex-wrap justify-center -m-2">
           {achievements.map((achievement, index) => (
             <AchievementCard
               key={index}
