@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex items-center py-5 fixed top-0 z-1000 ${
         isLight ? "bg-white" : "bg-black"
       } bg-opacity-60 backdrop-blur`}
     >
